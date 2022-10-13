@@ -1,0 +1,23 @@
+
+
+(Concept)
+An array of functions will contain actions the player will take when confronted by the main NPC.
+The player's actions will then recursively traverse through the pointers to functions (Like a Binary Search).
+Player's actions affect the future of the game, but if the player is unhappy, player is able to buy his way back to
+travel back to the past with player's current experience. If player reaches a leaf node and gets unlucky he could die
+but if he respawns to a forgiving future, he could start over and go back to the begining of time with all his points to
+score more points.
+
+
+Actions/ Events in the universe will contain function arrays.
+They will be displayed in a Binary Search style algorithm.
+User will be confronted with 2 options each time the future proceeds.
+
+function_array1 = {
+    ...
+    In-Order traversal functions
+    ...
+}
+
+
+
