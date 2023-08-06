@@ -13,11 +13,14 @@ Actions/ Events in the universe will contain function arrays.
 They will be displayed in a Binary Search style algorithm.
 User will be confronted with 2 options each time the future proceeds.
 
+
+
+C-style language?
+
 function_array1 = {
     ...
     In-Order traversal functions
     ...
 }
-
-
-
+ 
+In the common lisp solution, events are added to the equivalent of function_array1 list through binary insertion-sort. To index these events in lisp, the binary search algorithm will be involved. There will be multiple lists like function_array1 to identify parameters in the same timeline for each element. 
