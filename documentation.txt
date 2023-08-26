@@ -1,6 +1,32 @@
-Functions in game 
-[IP]:
-To be continued...
+Functions in game [IP]:
+
+Timestamp indexing format from root node x: (x is omitted)
+;LRLRLRLR
+
+
+defvar currentEvent ~
+	Points it at first event.
+	User shall be in one event at a time.
+
+
+*2-way event Timeline indexing*
+defun binary-indexing ~
+	Instead of binary search running, a binary indexer function
+	shall be called to position via binary search style to reduce
+	time
+
+*Add events to 2-way Timeline*
+(defun binarySort x)
+	Programs events, fixes them into proper timelines for proper
+	binary-indexing as user pursues the game.
+
+
+
+
+
+
+
+to be continued...
 
 
 
