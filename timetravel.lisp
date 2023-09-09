@@ -35,15 +35,38 @@
 ;;
 ;;
 ;;
+
+;; list of actions in each event (To be traversed as a BST)
+;; (defvar action1)
+;; A fixed number of options for each event (depending on how many action arrays)
+
+
+;; height of BST
+(defvar numberForwardsTimelineEvents E)
+
+
+;; total number of uniquely destined events in this universe
+(defvar totalEventsCount ( 2^(E+1) -1 )
+
 ;; Reference to current event
-(defvar currentEvent 0)
+(defvar currentEventIndex (ash totalEventsCount -1))
 ;; ( Points it at first event )
 
+;; 2-way event Timeline indexing, to be used instead of binary search function 
+;; L or R as parameter
 
-;; 2-way event Timeline indexing
-(defun binarySearch x
-  
+(defun moveLeftIndex
+  (ash currentEventIndex -1)
 )
+
+(defun moveRightIndex
+  (ash currentEventIndex -1) * 2
+)
+
+(defun binarySearchPtrShift 
+  ;; move left or right here
+)
+
 
 ;; Add events to 2-way Timeline
 (defun binarySort x)
