@@ -60,11 +60,15 @@
 )
 
 (defun moveRightIndex
-  (ash currentEventIndex -1) * 2
+  (* (ash currentEventIndex -1) 2)
 )
 
-(defun binarySearchPtrShift 
+;; move down the timeline this way
+(defun binarySearchPtrShift (LorR)
   ;; move left or right here
+  (cond ((string-equal LorR "left") moveLeftIndex)
+  	((string-equal LorR "right") moveRightIndex)
+  	)
 )
 
 
