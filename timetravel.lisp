@@ -73,13 +73,13 @@
 
 
 ;; Add events to 2-way Timeline
-(defun binarySort x)
+(defun addEventsBST x)
 
 
 
 
 
-;; Choices of 2-way actions to be indexed via Binary Search
+;; Display choices of 2-way actions to be indexed via Binary Search
 ;;
 ;;
 ;;
